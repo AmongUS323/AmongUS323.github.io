@@ -1,1 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luciano Bonaventura — Portfolio</title>
+  <meta name="description" content="Luciano Bonaventura — CSIS student at FIU. Portfolio and selected works." />
 
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#info">Skip to content</a>
+
+  <header class="nav">
+    <div class="nav__left">
+      <a class="brand" href="#top" aria-label="Home">Portfolio L</a>
+    </div>
+    <nav class="nav__right" aria-label="Primary">
+      <a class="navlink" href="#info">Info</a>
+      <a class="navlink" href="#works">Select Works</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO (matches your first screenshot) -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__email">
+        <a href="mailto:bonal011@fiu.edu">bonal011@fiu.edu</a>
+      </div>
+
+      <div class="hero__grid">
+        <h1 class="hero__title" aria-label="Portfolio">
+          <span>PORTFOLIO</span>
+          <span>PORTFOLIO</span>
+        </h1>
+
+        <figure class="hero__image">
+          <img src="assets/hero.jpg" alt="Portrait photo" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- INFO (matches your second screenshot) -->
+    <section id="info" class="info" aria-label="Info">
+      <div class="info__grid">
+        <div class="info__copy">
+          <p>
+            Hi, I’m <strong>Luciano Bonaventura</strong>. I’m currently working toward my bachelor’s in
+            Computer Science at FIU and pursuing a career in Information Technology.
+          </p>
+          <p>
+            My focus is building and maintaining computer systems and creating clear, accurate documents.
+          </p>
+        </div>
+
+        <figure class="info__image">
+          <img src="assets/headshot.jpg" alt="Portrait photo" />
+        </figure>
+
+        <div class="info__signature" aria-label="Name and title">
+          <div class="info__name">Luciano Bonaventura</div>
+          <div class="info__role">CSIS student at FIU</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECT WORKS (simple grid you can fill in) -->
+    <section id="works" class="works" aria-label="Selected works">
+      <div class="works__wrap">
+        <h2 class="works__heading">Select Works</h2>
+
+        <div class="works__grid">
+          <article class="card">
+            <a class="card__link" href="#" aria-label="Project 1 (replace link)">
+              <div class="card__meta">
+                <div class="card__title">Project Title</div>
+                <div class="card__tags">IT · Networking · Documentation</div>
+              </div>
+              <div class="card__desc">
+                Short description of what you built, what tools you used, and the outcome.
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="#" aria-label="Project 2 (replace link)">
+              <div class="card__meta">
+                <div class="card__title">Project Title</div>
+                <div class="card__tags">Java · Systems · Troubleshooting</div>
+              </div>
+              <div class="card__desc">
+                Short description. Add screenshots by linking to a project page or repo.
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="#" aria-label="Project 3 (replace link)">
+              <div class="card__meta">
+                <div class="card__title">Project Title</div>
+                <div class="card__tags">Home Lab · Servers · Security</div>
+              </div>
+              <div class="card__desc">
+                Short description. Replace this with your best “results + impact” line.
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__left">© <span id="year"></span> Luciano Bonaventura</div>
+      <div class="footer__right">
+        <a href="mailto:bonal011@fiu.edu">bonal011@fiu.edu</a>
+        <span class="footer__dot">·</span>
+        <a href="#" rel="noopener">GitHub</a>
+        <span class="footer__dot">·</span>
+        <a href="#" rel="noopener">LinkedIn</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
