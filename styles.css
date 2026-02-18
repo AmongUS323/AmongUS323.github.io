@@ -219,6 +219,35 @@ margin: 0 auto;
   opacity: 0.95;
   max-width: 55ch;
 }
+/* NEW: rationale text inside cards */
+.card__rationale{
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  opacity: 0.95;
+  max-width: 55ch;
+}
+
+/* NEW: appendix helper text */
+.appendix__note{
+  margin: 0 0 18px 0;
+  color: var(--accent);
+  font-size: 18px;
+  line-height: 1.25;
+  opacity: 0.95;
+  max-width: 70ch;
+}
+
+.appendix__fineprint{
+  margin-top: 16px;
+  color: var(--accent);
+  font-size: 16px;
+  line-height: 1.25;
+  opacity: 0.9;
+}
+.appendix{
+  padding: 0 0 86px 0;
+}
 .card__link:hover{
   background: rgba(238, 42, 4, 0.06);
 }
